@@ -83,6 +83,10 @@
                         </ul>
                     </li>
 
+                    <li>
+                        <a href="#link15">Keyboard shortcuts</a>
+                    </li>
+
 
                 </ul>
 
@@ -104,48 +108,113 @@
                     <div class="img-container"><img src="/src/assets/images/docs_images/add_character.webp" /></div>
 
                     <div id="link4"> <h3> Selecting and posing joints </h3> </div>
-                    <p> To pose the character, click on one of the blue markers located on the character's joints. Rotating a marker will rotate the corresponding body part.</p>
+                    <p> To pose the character, click on one of the blue markers located on the character's joints. Rotating a marker will rotate the corresponding body part.
+                        You can resize the control gizmo by pressing the '+' or '–' keys on your keyboard.
+
+                    </p>
                     <div class="img-container"><img src="/src/assets/images/docs_images/markers.webp" /></div>
 
                     <div id="link5"> <h3> Switching between characters </h3> </div>
                     <p> If you have multiple characters in the scene, you can switch between them using the Models panel. The selected model is highlighted with a gray background. You can also hide models by clicking on the eye icon next to it.</p>
                     <div class="img-container"><img src="/src/assets/images/docs_images/multiple_models.webp" /></div>
 
-                    <div id="link6"> <h3> Character settings </h3> </div>
-                    <p> Once you select a character, you can edit its properties. You can adjust the size and color, choose from various body poses, and save custom poses to load later if needed. You can also select hand poses, mirror the pose, duplicate the character, or delete it. </p>
+                    <div id="link6"> <h3> Character properties </h3> </div>
+                    <p> Once you select a character, you can edit its properties. 
+                        You can adjust the size and color, choose from various body poses, and save custom poses to load later if needed. 
+                        Character size can only be changed from Properties dialog.
+                        In the 'Actions' section, you can mirror current pose, duplicate the character, or delete it. </p>
                     <div class="img-container"><img src="/src/assets/images/docs_images/character_properties.webp" /></div>
 
                 </div>
 
                 <div id="link7">
-                    <h2>Adding & Manipulating Objects</h2>
+                    <h2>Adding & manipulating objects</h2>
 
                     <div id="link8"> <h3> Adding items (props, hair meshes, accessories) </h3> </div>
                     <p> To add various items to the scene, click on the 'Add Objects' button in the Models panel and click on the desired model.  </p>
                     <div class="img-container"><img src="/src/assets/images/docs_images/add_props.webp" /></div>
 
                     <div id="link9"> <h3> Using 3D text</h3> </div>
-                    <p> To add 3D text, click the 'T' icon in the Models panel. Enter your text, then click the 'Add Text' button to apply it.</p>
+                    <p> To add 3D text, click the 'T' icon in the Models panel. Enter your text, then click the 'Add Text' button to apply it.
+                        Currently, text cannot be edited so you would need to create a new one if needed.
+                    </p>
                     <div class="img-container"><img src="/src/assets/images/docs_images/add_text.webp" /></div>
 
                     <div id="link10"> <h3> Move, scale, rotate </h3> </div>
-                    <p> Items and 3D text can be moved, rotated, and scaled using the on-screen gizmo controls. Once you select an item, choose the desired action from the lower-left corner. You can resize the control gizmo by pressing the '+' or '–' keys on your keyboard." </p>
+                    <p> Items and 3D text can be moved, rotated, and scaled using the on-screen gizmo controls. Once you select an item, choose the desired action from the lower-left corner.
+                        You can resize the control gizmo by pressing the '+' or '–' keys on your keyboard. </p>
                     <div class="img-container"><img src="/src/assets/images/docs_images/edit_items.webp" /></div>
 
                 </div>
 
                 <div id="link11">
 
-                    <h2> Scene Settings </h2>
+                    <h2> Scene settings </h2>
+                    <p> In this dialog, you can enable outlines around meshes in the scene, change the background color, enable shadows, adjust light intensity, and toggle the secondary light on or off. 
+                        You can also show or hide the ground mesh and change its color. Adjusting the 'Control Sprites Size' setting changes the size of the control markers on joints, which is especially useful when resizing a character.
+                    </p>
                     <div class="img-container"><img src="/src/assets/images/docs_images/scene_settings.webp" /></div>
+
+                </div>
+
+                <div id="link12">
+
+                    <h2> Saving and exporting</h2>
+
+                    <div id="link13"> <h3> Saving and loading scenes </h3> </div>
+                    <p> To save or load a scene, click the Menu icon in the top-left corner (the icon with three lines). Then choose 'Import Scene' or 'Export Scene.' 
+                        A dialog will appear, allowing you to select a save location and name for your scene file. Scenes are saved as JSON files.
+                    </p>
+
+                    <div id="link14"> <h3> Export images </h3> </div>
+                    <p> Once you're satisfied with your scene, you can export it as a PNG image. You also have the option to export the image with a drawing-style filter applied.
+                    </p>
 
 
                 </div>
 
+                <div id="link15">
+
+                    <h2>Keyboard shortcuts</h2>
+                    <p>Once you have a model selected, you can switch between different control modes using your keyboard:
+
+                        <ul>
+
+                        <li>Press 'w' to switch to Move mode.</li>
+                        
+                        <li>Press 'e' to switch to Rotate mode.</li>
+                        
+                        <li>Press 'q' to automatically zoom in on the selected model.</li>
+                        
+                        <li>To resize the control gizmo, press '+' to increase its size or '-' to decrease it.</li>
+
+                        </ul>
+                    </p>
+
+                </div>
+
+            
+
 
 
             </main>
+            
         </div>
+
+        <footer class="footer">
+            <a class="logo" href="index.html">Pick And Pose</a>
+
+            <p class="copyright">©2025 PickAndPose, All Rights Reserved.</p>
+
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#docs.html">Guide</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="#demo">Video</a></li>
+                </ul>
+            </nav>
+        </footer>
 
 
     </div>

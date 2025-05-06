@@ -276,12 +276,12 @@ body .wrapper .full .sidebar ul li ul li {
 body .wrapper .full main {
   width: 100%;
   padding-left: 400px;
-  height: 1500px;
+  margin-bottom: 5rem;
 }
 body .wrapper .full main p {
   line-height: 1.5rem;
 }
-body .wrapper .full main #link1, body .wrapper .full main #link2, body .wrapper .full main #link3, body .wrapper .full main #link4, body .wrapper .full main #link5, body .wrapper .full main #link6, body .wrapper .full main #link7, body .wrapper .full main #link8, body .wrapper .full main #link9, body .wrapper .full main #link10 {
+body .wrapper .full main #link1, body .wrapper .full main #link2, body .wrapper .full main #link3, body .wrapper .full main #link4, body .wrapper .full main #link5, body .wrapper .full main #link6, body .wrapper .full main #link7, body .wrapper .full main #link8, body .wrapper .full main #link9, body .wrapper .full main #link10, body .wrapper .full main #link11, body .wrapper .full main #link12, body .wrapper .full main #link13, body .wrapper .full main #link14, body .wrapper .full main #link15 {
   scroll-margin-top: 100px;
 }
 body .wrapper .full main img {
