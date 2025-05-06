@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PickAndPose</title>
+    <link rel="stylesheet" href="src/assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <a class="logo" href="index.html">Pick And Pose</a>
+
+            <nav class="desktop">
+                <ul>
+                    <li><a href="docs.html">Guide</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="index.html#demo">Video</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile" id="mobile-switch"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button>
+            <div class="mobile-menu" id="mobile-menu">
+                <nav>
+                    <ul>
+                        <li><a href="docs.html">Guide</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="index.html#demo">Video</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="pricing animate">
+
+            <h2>Find the right fit for your creative journey.</h2>
+
+            <div class="button-labels">
+
+
+                <h3>One-time</h3>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch" onclick="togglePlan()">
+                    <span class="slider round"></span>
+                </label>
+                <h3>Monthly</h3>
+
+            </div>
+
+            <div class="pricing-cards">
+
+                <!-- FREE CARD  -->
+                <div class="free">
+                    <div class="payment-title-label">
+                        <h2>Free</h2>
+                        <p>Start posing without registration or account and see how you like it :)</p>
+                    </div>
+
+                    <div class="perks">
+                        <p> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Limited characters</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Up to 3 models loaded at once</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Access to props & hair models</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Hand pose library included</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> High-resolution image exports</p>
+                    </div> 
+
+
+
+                    <a class="free-cta" href="#">Open the app</a>
+                </div>
+
+
+                <!-- PAID CARD  -->
+                <div class="paid" id="paidPlan">
+
+                    <p>Individual</p>
+                    <div class="payment-title-label" id="priceLabelWrapper">
+                        <!--- JS inserted --->
+                    </div>
+
+                    <div class="perks" id="perksWrapper">
+                        <!--- JS inserted --->
+                    </div>
+
+                    <a class="paid-cta" id="paidCTAOneTime" href="#" target="_blank">Get started - One Time</a>
+                    <a class="paid-cta" id="paidCTAMonthly" href="#" target="_blank"  style="display: none;">Get started - Monthly</a>
+
+                    
+                </div>
+
+                
+                <!-- ONE YEAR PASS CARD  -->
+
+                <div class="paid oneyearpass" id="paidPlan">
+
+                    <p>Individual</p>
+                    <div class="payment-title-label" id="priceLabelWrapper">
+                        <h2>One-year pass</h2>
+                        <p class="price-label"><span>$30</span> Pay once, use it for a year!</p>
+                        <p>The first month is FREE!</p>
+                    </div>
+
+                    <div class="perks" id="perksWrapper">
+                        <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Everything in Free, plus...</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> All characters unlocked</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Full pose & hand pose library</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Save and load scenes and poses</p>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Add 3D text to the scene</p>
+                    </div>
+
+                    <a class="paid-cta" id="paidCTAOneTime" href="#" target="_blank">Get started - 1 Year Pass</a>
+
+                </div>
+
+            </div>
+            
+            <img src="src/assets/images/standing.webp"  alt="hero image of two characters posing" />
+        </div>
+
+        <div class="faq animate">
+
+            <h2>Frequently asked questions.</h2>
+
+
+            <button href="#" class="collapsible" >Guide activate license key?</button>
+            <div class="content">
+                <p>You will receive a license key via email after your payment is processed. Copy the key and
+                    inside the Pick and Pose application, in the lower right corner, click on the License Registration button (small crown icon <img class="icon" src="/src/assets/images/faq_1.png" alt="crown icon">). In the new window that appears, paste the license key you received and click 'Activate.'
+                </p>
+
+                <img class="faq_2" src="/src/assets/images/faq_2.png" alt="insert license key image" >
+            </div>
+
+            <button href="#" class="collapsible" >Is there a trial license?</button>
+            <div class="content">
+                <p>
+                    If you choose monthly payment or 1 year pass, <span class="bold">the first month</span> is free of charge and you can test it and if you do not like it you can cancel it.
+                </p>
+            </div>
+
+            <button href="#" class="collapsible" >Do I need internet connection to activate license?</button>
+            <div class="content">
+                <p>
+                    Yes, internet connection is required to activate license key first time.
+                    After that you only need internet connection if you are on monthly plan as it will periodically check subscription status.
+                    If you purchased one-time license then you need internet connection only when activating the first time (It will need internet connection to validate license again if you clear your browser data and cookies).
+                </p>
+            </div>
+
+            <button href="#" class="collapsible" >On how many devices is the license activation allowed?</button>
+            <div class="content">
+                <p>
+                    The license can be activated on all of your machines and is tied to the browser, so please ensure you do not clear your browser cookies.
+                    Please do not share your license key, as it will be blocked if too many activations are detected.
+                </p>
+            </div>
+
+            <button href="#" class="collapsible" >How long is my license key valid for?</button>
+            <div class="content">
+                <p>
+                    If you choose monthly payment, license will be valid until it is canceled. If you purchased one-time license then it is valid forever.
+                </p>
+            </div>
+
+            <button href="#" class="collapsible" >What should I do if I lose my license key?</button>
+            <div class="content">
+                <p>
+                    You should be able to find it in your email you received when you purchased the license or in your library.
+                </p>
+            </div>
+
+
+        </div>
+
+
+        
+        <footer class="footer">
+            <a class="logo" href="index.html">Pick And Pose</a>
+
+            <p class="copyright">©2025 PickAndPose, All Rights Reserved.</p>
+
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#docs.html">Guide</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="#demo">Video</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+
+    </div>
+
+
+    <script>
+
+        let coll = document.getElementsByClassName("collapsible");
+
+        for (let i = 0; i < coll.length; i++) {
+
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+
+        }
+
+
+
+        const btn = document.getElementById('mobile-switch');
+        const mobileMenu = document.getElementById('mobile-menu')
+
+        btn.addEventListener('click', function (){
+            event.stopPropagation();
+
+            if(mobileMenu.style.display == 'block'){
+                mobileMenu.style.display = 'none';
+            } else {
+                mobileMenu.style.display = 'block';
+            }
+
+        })
+
+        document.addEventListener('click', function(e){ 
+            if(e.target != mobileMenu && e.target !== btn) {
+                if(mobileMenu.style.display == 'block'){
+                    mobileMenu.style.display = 'none';
+                }
+            } 
+        })
+
+        const toggleSwitch = document.getElementById("toggleSwitch");
+        const paidPlan = document.getElementById("paidPlan");
+        const perks = document.getElementById("perksWrapper");
+        const priceLabel = document.getElementById("priceLabelWrapper");
+        const paidCTAOneTime = document.getElementById('paidCTAOneTime');
+        const paidCTAMonthly = document.getElementById('paidCTAMonthly');
+
+        
+
+        const perksHTML = 
+        `   <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Everything in Free, plus...</p>
+            <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> All characters unlocked</p>
+            <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Full pose & hand pose library</p>
+            <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Save and load scenes and poses</p>
+            <p> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Add 3D text to the scene</p>
+        `;
+
+        const priceTitleLabelOneTime = 
+        `   <h2>One-time</h2>
+            <p class="price-label"><span>$90</span> Pay once, own it forever!</p>
+        `;
+
+        const priceTitleLabelMonthly = 
+        `   <h2>Monthly</h2>
+            <p class="price-label"><span>$10</span> The first month is FREE!</p>
+            <p>Cancel anytime.</p>
+        `;
+
+
+        
+        perks.innerHTML = perksHTML;
+        priceLabel.innerHTML = priceTitleLabelOneTime;
+
+
+        
+        function togglePlan(){
+
+            checkToggleStatus();
+        }
+
+        function checkToggleStatus(){
+
+            if (toggleSwitch.checked) {
+
+                perks.innerHTML = perksHTML;
+                priceLabel.innerHTML = priceTitleLabelMonthly;
+                paidCTAMonthly.style.display = 'block';
+                paidCTAOneTime.style.display = 'none';
+                sessionStorage.setItem("toggleState", "monthly");
+
+            } else {
+
+                perks.innerHTML = perksHTML;
+                priceLabel.innerHTML = priceTitleLabelOneTime;
+                paidCTAMonthly.style.display = 'none';
+                paidCTAOneTime.style.display = 'block';
+                sessionStorage.setItem("toggleState", "onetime");
+
+            }
+        }
+
+        /* check toggle if onetime or monthly in session storage*/
+        document.addEventListener("DOMContentLoaded", function () {
+            if (sessionStorage.getItem("toggleState") === "monthly") {
+                toggleSwitch.checked = true;
+            } else {
+                toggleSwitch.checked = false;
+            }
+            checkToggleStatus();
+
+
+        });
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PickAndPose</title>
+    <link rel="stylesheet" href="src/assets/css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <a class="logo" href="index.html">Pick And Pose</a>
+
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#">Guide</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="index.html#demo">Video</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile" id="mobile-switch"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button>
+            <div class="mobile-menu" id="mobile-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Guide</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="index.html#demo">Video</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="full">
+            <div class="sidebar">
+
+                <ul>
+                    <li><a href="#link1">Introduction</a></li>
+                </ul>
+                <ul>
+
+                    <li>
+                        <a href="#link2" class="lines">Working with characters</a>
+                        <ul>
+                            <li> <a href="#link3">Adding a character</a></li>
+                            <li> <a href="#link4">Selecting and posing joints</a></li>
+                            <li> <a href="#link5">Switching between characters</a></li>
+                            <li> <a href="#link6">Character settings</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#link7">Adding & Manipulating Objects</a>
+                        <ul>
+                            <li><a href="#link8">Adding items (props, accessories)</a></li>
+                            <li> <a href="#link9">Using 3D text</a></li>
+                            <li> <a href="#link10">Move, scale, rotate</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#link11">Scene Settings</a>
+                    </li>
+
+                    <li>
+                        <a href="#link12">Saving and Exporting</a>
+                        <ul>
+                            <li><a href="#link13">Saving and loading scenes</a></li>
+                            <li> <a href="#link14">Export images</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+            <main>
+
+                <div id="link1">
+                    <h2>Introduction</h2>
+                    <p>Pick and Pose is an app for posing 3d characters allowing artists to create custom poses and using them as references for their art.</p>
+
+                </div>
+
+                <div id="link2">
+                    <h2>Working with characters</h2>
+
+                    <div id="link3"> <h3>Adding a character </h3> </div>
+                    <p>To create a character, click the 'Add Characters' button in the Models panel at the top right. From the dropdown menu, select the desired character to add it to the scene.</p>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/add_character.webp" /></div>
+
+                    <div id="link4"> <h3> Selecting and posing joints </h3> </div>
+                    <p> To pose the character, click on one of the blue markers located on the character's joints. Rotating a marker will rotate the corresponding body part.</p>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/markers.webp" /></div>
+
+                    <div id="link5"> <h3> Switching between characters </h3> </div>
+                    <p> If you have multiple characters in the scene, you can switch between them using the Models panel. The selected model is highlighted with a gray background. You can also hide models by clicking on the eye icon next to it.</p>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/multiple_models.webp" /></div>
+
+                    <div id="link6"> <h3> Character settings </h3> </div>
+                    <p> Once you select a character, you can edit its properties. You can adjust the size and color, choose from various body poses, and save custom poses to load later if needed. You can also select hand poses, mirror the pose, duplicate the character, or delete it. </p>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/character_properties.webp" /></div>
+
+                </div>
+
+                <div id="link7">
+                    <h2>Adding & Manipulating Objects</h2>
+
+                    <div id="link8"> <h3> Adding items (props, hair meshes, accessories) </h3> </div>
+                    <p> To add various items to the scene, click on the 'Add Objects' button in the Models panel and click on the desired model.  </p>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/add_props.webp" /></div>
+
+                    <div id="link9"> <h3> Using 3D text</h3> </div>
+                    <p> To add 3D text, click the 'T' icon in the Models panel. Enter your text, then click the 'Add Text' button to apply it.</p>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/add_text.webp" /></div>
+
+                    <div id="link10"> <h3> Move, scale, rotate </h3> </div>
+                    <p> Items and 3D text can be moved, rotated, and scaled using the on-screen gizmo controls. Once you select an item, choose the desired action from the lower-left corner. You can resize the control gizmo by pressing the '+' or '–' keys on your keyboard." </p>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/edit_items.webp" /></div>
+
+                </div>
+
+                <div id="link11">
+
+                    <h2> Scene Settings </h2>
+                    <div class="img-container"><img src="/src/assets/images/docs_images/scene_settings.webp" /></div>
+
+
+                </div>
+
+
+
+            </main>
+        </div>
+
+
+    </div>
+
+</body>
