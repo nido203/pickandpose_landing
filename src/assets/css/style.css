@@ -640,6 +640,18 @@ body .wrapper .faq .content .faq_2 {
     height: fit-content;
     gap: 2rem;
   }
+  body .wrapper .full {
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+  body .wrapper .full .sidebar {
+    position: relative;
+    height: auto;
+    padding-top: 5rem;
+  }
+  body .wrapper .full main {
+    padding: 1rem;
+  }
 }
 @media only screen and (min-width: 800px) {
   .pricing .pricing-cards {

@@ -315,8 +315,6 @@ body {
 
             display: flex;
 
-
-
             .sidebar {
                 background: #f5f5f5;
                 border-radius: 32px;
@@ -868,6 +866,22 @@ body {
                 }
             }
 
+            .full {
+
+                flex-direction: column;
+                padding-top: 5rem;
+
+                .sidebar {
+                    position: relative;
+                    height: auto;
+                    padding-top: 5rem;
+                }
+
+                main {
+                    padding: 1rem;
+                }
+            }
+
 
         }
     }
@@ -886,5 +900,6 @@ body {
 
         }
     }
+    
 
 }
