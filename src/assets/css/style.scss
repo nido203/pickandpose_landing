@@ -195,6 +195,37 @@ body {
 
         }
 
+        .char-fly-section{
+            position: relative;
+            width: 100%;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            opacity: 0;
+
+
+            h1{
+                position: absolute;
+                top: 50%; 
+                right: 50%;
+                text-align: center;
+                transform: translate(50%,-50%);
+                text-transform: uppercase;
+                font-size: 8em;
+                font-weight: 700;
+                width: 100%;
+                color: #0f1a19;
+                margin: 0;
+                padding: 1rem;
+                z-index: -1;
+
+            }
+
+            img {
+                width: 100%;
+            }
+
+        }
+
 
         /* HERO SUB TEXT*/
         .sub-hero{
@@ -206,6 +237,7 @@ body {
             justify-content: center;
             padding-top: 5rem;
             padding-bottom: 5rem;
+            opacity: 0;
 
             p{
                 margin: auto 0;
@@ -299,6 +331,7 @@ body {
         #features{
             scroll-margin-top: 280px;
         }
+
 
         /* Demo video section*/
         .demo {
@@ -821,6 +854,16 @@ body {
                 }
 
 
+            }
+
+            .char-fly-section{
+    
+                h1{
+                    font-size: 3em;
+
+                }
+    
+    
             }
 
 
