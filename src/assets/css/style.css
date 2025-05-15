@@ -259,6 +259,15 @@ body .wrapper .features .card7 {
 body .wrapper #features {
   scroll-margin-top: 280px;
 }
+body .wrapper .demo-heading {
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
 body .wrapper .demo {
   margin: auto 0;
   display: flex;

@@ -203,6 +203,7 @@ body {
             opacity: 0;
 
 
+
             h1{
                 position: absolute;
                 top: 50%; 
@@ -332,6 +333,16 @@ body {
             scroll-margin-top: 280px;
         }
 
+
+        .demo-heading {
+            margin: auto 0;
+            display: flex;
+            justify-content: center;
+            padding-top: 5rem;
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+        }
 
         /* Demo video section*/
         .demo {
