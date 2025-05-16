@@ -523,6 +523,7 @@ body {
                     max-width: 348px;
                     box-shadow: $card-shadow;
                     transition:  0.3s ease-in-out;
+                    border: 2px solid #d6d6d6;
                     
 
                     .payment-title-label {
@@ -656,9 +657,10 @@ body {
                 }
 
                 .oneyearpass{
-                    background-color: #f5f5f5;
+                    background-color: #ffffff;
                     color: #000000;
                     box-shadow: $card-shadow;
+                    border: 2px solid #d6d6d6;
                 }
 
                 .free:hover {
