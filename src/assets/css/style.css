@@ -164,14 +164,14 @@ body .wrapper .char-fly-section {
   opacity: 0;
 }
 body .wrapper .char-fly-section .background-full {
-  background-color: #e8f1f1;
   position: absolute;
   top: 0;
-  left: -50%;
+  left: 20%;
   z-index: -2;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 }
 body .wrapper .char-fly-section h1 {
   position: absolute;
@@ -513,6 +513,9 @@ body .wrapper .pricing .pricing-cards .oneyearpass {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border: 2px solid #d6d6d6;
 }
+body .wrapper .pricing .pricing-cards .oneyearpass .paid-cta {
+  border: 1px solid black;
+}
 body .wrapper .pricing .pricing-cards .free:hover {
   background-color: #e2e2e2;
   transition: 0.3s ease-in-out;
@@ -587,6 +590,10 @@ body .wrapper .faq .content p .icon {
 }
 body .wrapper .faq .content .faq_2 {
   max-width: 100%;
+}
+body .wrapper .policy-wrapper {
+  padding: 2rem 5rem 5rem 4rem;
+  line-height: 1.5rem;
 }
 
 @media only screen and (max-width: 900px) {
