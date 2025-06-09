@@ -163,7 +163,7 @@ body .wrapper .char-fly-section {
   padding-bottom: 5rem;
   opacity: 0;
 }
-body .wrapper .char-fly-section .background-full {
+body .wrapper .char-fly-section .background-full, body .wrapper .char-fly-section .background-full-2 {
   position: absolute;
   top: 0;
   left: 20%;
@@ -173,7 +173,7 @@ body .wrapper .char-fly-section .background-full {
   border-radius: 50%;
   background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 }
-body .wrapper .char-fly-section h1 {
+body .wrapper .char-fly-section .text-1 {
   position: absolute;
   top: 50%;
   right: 50%;
@@ -188,8 +188,23 @@ body .wrapper .char-fly-section h1 {
   padding: 1rem;
   z-index: -1;
 }
-body .wrapper .char-fly-section img {
+body .wrapper .char-fly-section .text-2 {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
   width: 100%;
+  text-align: center;
+  transform: translate(50%, -50%);
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 700;
+}
+body .wrapper .char-fly-section .image-1 {
+  width: 100%;
+}
+body .wrapper .char-fly-section .image-2 {
+  width: 100%;
+  border-radius: 32px;
 }
 body .wrapper .sub-hero {
   font-size: 1.4rem;
@@ -327,6 +342,9 @@ body .wrapper .full main {
 }
 body .wrapper .full main p {
   line-height: 1.5rem;
+}
+body .wrapper .full main p span {
+  font-weight: 700;
 }
 body .wrapper .full main #link1, body .wrapper .full main #link2, body .wrapper .full main #link3, body .wrapper .full main #link4, body .wrapper .full main #link5, body .wrapper .full main #link6, body .wrapper .full main #link7, body .wrapper .full main #link8, body .wrapper .full main #link9, body .wrapper .full main #link10, body .wrapper .full main #link11, body .wrapper .full main #link12, body .wrapper .full main #link13, body .wrapper .full main #link14, body .wrapper .full main #link15 {
   scroll-margin-top: 100px;
@@ -667,8 +685,15 @@ body .wrapper .policy-wrapper {
   body .wrapper .hero .right {
     display: none;
   }
-  body .wrapper .char-fly-section h1 {
+  body .wrapper .char-fly-section .text-1 {
     font-size: 3em;
+  }
+  body .wrapper .char-fly-section .text-2 {
+    font-size: 100%;
+    padding: 1rem;
+  }
+  body .wrapper .char-fly-section .image-2 {
+    border-radius: 0;
   }
   body .wrapper .char-fly-section .background-full {
     display: none;
