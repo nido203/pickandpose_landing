@@ -238,4 +238,28 @@
 
     </div>
 
+    <script>
+                const btn = document.getElementById('mobile-switch');
+        const mobileMenu = document.getElementById('mobile-menu')
+
+        btn.addEventListener('click', function (){
+            event.stopPropagation();
+
+            if(mobileMenu.style.display == 'block'){
+                mobileMenu.style.display = 'none';
+            } else {
+                mobileMenu.style.display = 'block';
+            }
+
+        })
+
+        document.addEventListener('click', function(e){ 
+            if(e.target != mobileMenu && e.target !== btn) {
+                if(mobileMenu.style.display == 'block'){
+                    mobileMenu.style.display = 'none';
+                }
+            } 
+        })
+    </script>
+
 </body>

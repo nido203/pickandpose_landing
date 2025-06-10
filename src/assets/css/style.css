@@ -695,7 +695,7 @@ body .wrapper .policy-wrapper {
   body .wrapper .char-fly-section .image-2 {
     border-radius: 0;
   }
-  body .wrapper .char-fly-section .background-full {
+  body .wrapper .char-fly-section .background-full, body .wrapper .char-fly-section .background-full-2 {
     display: none;
   }
   body .wrapper .sub-hero {
