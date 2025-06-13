@@ -47,6 +47,31 @@ body .wrapper {
   /* DOCUMENTATION PAGE */
   /* PRICING PAGE */
 }
+body .wrapper .trial-bubble {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #0B535D;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 99;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .wrapper .trial-bubble p {
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+body .wrapper .trial-bubble a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
 body .wrapper header, body .wrapper footer {
   display: flex;
   justify-content: space-between;
