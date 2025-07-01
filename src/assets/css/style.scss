@@ -638,7 +638,7 @@ body {
                     }
                 }
     
-                .paid {
+                .paid, .paid-no-after {
     
                     background-color: #0B535D;
                     position: relative;
@@ -655,6 +655,15 @@ body {
 
                     p{
                         margin: 0;
+                    }
+
+                    .mail {
+                        font-weight: 500;
+                    }
+
+                    .type {
+                        font-size: 1.4rem;
+                        font-weight: 800;
                     }
     
                     .payment-title-label{
@@ -718,6 +727,12 @@ body {
     
     
     
+                }
+
+                .team {
+
+                    justify-content: flex-start;
+
                 }
 
                 .oneyearpass{
