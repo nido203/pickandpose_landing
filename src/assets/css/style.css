@@ -188,7 +188,7 @@ body .wrapper .char-fly-section {
   padding-bottom: 5rem;
   opacity: 0;
 }
-body .wrapper .char-fly-section .background-full, body .wrapper .char-fly-section .background-full-2 {
+body .wrapper .char-fly-section .background-full {
   position: absolute;
   top: 0;
   left: 20%;
@@ -213,7 +213,7 @@ body .wrapper .char-fly-section .text-1 {
   padding: 1rem;
   z-index: -1;
 }
-body .wrapper .char-fly-section .text-2 {
+body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3 {
   position: absolute;
   bottom: 10%;
   right: 50%;
@@ -223,6 +223,9 @@ body .wrapper .char-fly-section .text-2 {
   color: #ffffff;
   font-size: 3em;
   font-weight: 700;
+}
+body .wrapper .char-fly-section .text-3 {
+  color: #000000;
 }
 body .wrapper .char-fly-section .image-1 {
   width: 100%;
@@ -730,7 +733,7 @@ body .wrapper .policy-wrapper {
   body .wrapper .char-fly-section .image-2 {
     border-radius: 0;
   }
-  body .wrapper .char-fly-section .background-full, body .wrapper .char-fly-section .background-full-2 {
+  body .wrapper .char-fly-section .background-full {
     display: none;
   }
   body .wrapper .sub-hero {

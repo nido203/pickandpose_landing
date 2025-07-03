@@ -234,7 +234,7 @@ body {
             padding-bottom: 5rem;
             opacity: 0;
 
-            .background-full, .background-full-2{
+            .background-full{
                 position: absolute;
                 top: 0;
                 left: 20%;
@@ -262,7 +262,7 @@ body {
                 z-index: -1;
             }
 
-            .text-2 {
+            .text-2, .text-3 {
 
                 position: absolute;
                 bottom: 10%; 
@@ -274,6 +274,10 @@ body {
                 font-size: 3em;
                 font-weight: 700;
 
+            }
+
+            .text-3 {
+                color: #000000;
             }
 
             .image-1 {
@@ -975,7 +979,7 @@ body {
                     border-radius: 0;
                 }
 
-                .background-full, .background-full-2 {
+                .background-full {
                     display: none;
                 }
     
