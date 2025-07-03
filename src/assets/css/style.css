@@ -227,6 +227,9 @@ body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3
 body .wrapper .char-fly-section .text-3 {
   color: #000000;
 }
+body .wrapper .char-fly-section .text-2 {
+  font-size: 8rem;
+}
 body .wrapper .char-fly-section .image-1 {
   width: 100%;
 }
