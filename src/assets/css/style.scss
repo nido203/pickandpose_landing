@@ -421,6 +421,28 @@ body {
             padding-bottom: 5rem;
         }
 
+        .contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            background-color: #ffffff;
+
+            a {
+                width: 200px;
+                padding: 1rem;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: 600;
+                color: #ffffff;
+                background-color: #000000;
+                border-radius: 16px;
+            }
+        }
+
         /* DOCUMENTATION PAGE */
 
         .full {
