@@ -208,7 +208,7 @@ body .wrapper .char-fly-section .text-1 {
   font-size: 8em;
   font-weight: 700;
   width: 100%;
-  color: #0f1a19;
+  color: #2f5452;
   margin: 0;
   padding: 1rem;
   z-index: -1;
@@ -225,7 +225,11 @@ body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3
   font-weight: 700;
 }
 body .wrapper .char-fly-section .text-3 {
-  color: #000000;
+  color: #9b6f80;
+  border: 6px solid #986f80;
+  border-radius: 64px;
+  filter: drop-shadow(2px 4px 6px rgba(149, 157, 165, 0.2));
+  font-size: 8rem;
 }
 body .wrapper .char-fly-section .text-2 {
   font-size: 8rem;
