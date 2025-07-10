@@ -200,7 +200,7 @@ body .wrapper .char-fly-section .background-full {
 }
 body .wrapper .char-fly-section .text-1 {
   position: absolute;
-  top: 50%;
+  top: 63%;
   right: 50%;
   text-align: center;
   transform: translate(50%, -50%);
@@ -225,8 +225,9 @@ body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3
   font-weight: 700;
 }
 body .wrapper .char-fly-section .text-3 {
-  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+  /* text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
   font-size: 8rem;
+  color: #64364a;
 }
 body .wrapper .char-fly-section .text-2 {
   font-size: 8rem;
@@ -237,6 +238,9 @@ body .wrapper .char-fly-section .image-1 {
 body .wrapper .char-fly-section .image-2 {
   width: 100%;
   border-radius: 32px;
+}
+body .wrapper .char-fly-section p {
+  text-align: center;
 }
 body .wrapper .sub-hero {
   font-size: 1.4rem;
@@ -750,11 +754,17 @@ body .wrapper .policy-wrapper {
     display: none;
   }
   body .wrapper .char-fly-section .text-1 {
-    font-size: 3em;
+    font-size: 1.5rem;
   }
   body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3 {
-    font-size: 100%;
-    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 0;
+    position: relative;
+    color: #000000;
+    top: 0;
+    bottom: 0;
+    margin-top: 2rem;
+    margin-bottom: 0;
   }
   body .wrapper .char-fly-section .image-2 {
     border-radius: 0;

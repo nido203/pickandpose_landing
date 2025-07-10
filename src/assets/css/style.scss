@@ -248,7 +248,7 @@ body {
 
             .text-1{
                 position: absolute;
-                top: 50%; 
+                top: 63%; 
                 right: 50%;
                 text-align: center;
                 transform: translate(50%,-50%);
@@ -277,8 +277,9 @@ body {
             }
 
             .text-3 {
-                text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+                /* text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
                 font-size: 8rem;
+                color: #64364a;
             }
 
             .text-2 {
@@ -292,6 +293,10 @@ body {
             .image-2 {
                 width: 100%;
                 border-radius: 32px;
+            }
+
+            p {
+                text-align: center;
             }
 
         }
@@ -990,14 +995,21 @@ body {
             }
 
             .char-fly-section{
-    
-                .text-1{
-                    font-size: 3em;
-                }
 
-                .text-2, .text-3 {
-                    font-size: 100%;
-                    padding: 1rem;
+                .text-1 {
+                    font-size: 1.5rem;
+                }
+    
+
+                 .text-2, .text-3 {
+                    font-size: 1.5rem;
+                    padding: 0;
+                    position: relative;
+                    color: #000000;
+                    top: 0;
+                    bottom: 0;
+                    margin-top: 2rem;
+                    margin-bottom: 0;
                 }
 
                 .image-2 {
