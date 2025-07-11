@@ -684,7 +684,7 @@ body .wrapper .policy-wrapper {
     /* HERO MOBILE*/
   }
   body .wrapper header {
-    position: fixed;
+    position: sticky;
     justify-content: space-between;
     width: 100%;
     background-color: #ffffff;
