@@ -6,7 +6,8 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 @keyframes fadeInUp {
   from {
@@ -726,7 +727,7 @@ body .wrapper .policy-wrapper {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position-x: -55px; */
-    margin-top: 104px;
+    margin-top: 50px;
     padding: 2rem;
     z-index: 0;
     border-radius: 16px;
