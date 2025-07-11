@@ -442,7 +442,6 @@ body .wrapper .pricing .button-labels .slider {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 body .wrapper .pricing .button-labels .slider:before {
@@ -453,7 +452,6 @@ body .wrapper .pricing .button-labels .slider:before {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 body .wrapper .pricing .button-labels input:checked + .slider {
@@ -463,8 +461,6 @@ body .wrapper .pricing .button-labels input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
 body .wrapper .pricing .button-labels input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 body .wrapper .pricing .button-labels .slider.round {
@@ -619,6 +615,7 @@ body .wrapper .pricing .pricing-cards .paid::after {
   left: 0;
   right: 0;
   margin-inline: auto;
+  width: -moz-fit-content;
   width: fit-content;
 }
 body .wrapper .pricing .pricing-cards .oneyearpass:hover {
@@ -798,6 +795,7 @@ body .wrapper .policy-wrapper {
     gap: 4rem;
   }
   body .wrapper .pricing .pricing-cards .free {
+    height: -moz-fit-content;
     height: fit-content;
     gap: 2rem;
   }
