@@ -46,35 +46,6 @@ body {
         /* background-color: rgb(236, 255, 255); */
 
 
-        .trial-bubble {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            background-color: #0B535D;
-            position: fixed;
-            bottom: 1rem;
-            left: 1rem;
-            z-index: 99;
-            color: #ffffff;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-
-            p {
-                padding: 1rem;
-                margin: 0;
-                text-align: center;
-                font-size: 1.2rem;
-            }
-
-            a {
-                color: #ffffff;
-                font-size: 1.5rem;
-            }
-
-        }
-
 
         /* NAVBAR */
         header, footer {
