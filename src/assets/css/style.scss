@@ -204,10 +204,12 @@ body {
             padding-top: 5rem;
             padding-bottom: 5rem;
             opacity: 0;
+            max-width: 1366px;
+            margin: 0 auto;
 
             .background-full{
                 position: absolute;
-                top: 10%;
+                top: 4%;
                 left: 20%;
                 z-index: -2;
                 width: 500px;
@@ -238,7 +240,7 @@ body {
                 text-align: center;
                 transform: translate(50%,-50%);
                 text-transform: uppercase;
-                font-size: 8em;
+                font-size: 6em;
                 font-weight: 700;
                 width: 100%;
                 color: #2f5452;
@@ -249,27 +251,24 @@ body {
 
             .text-2, .text-3 {
 
-                position: absolute;
-                bottom: 10%; 
-                right: 50%;
-                width: 100%;
-                text-align: center;
-                transform: translate(50%,-50%);
-                color: #ffffff;
-                font-size: 3em;
-                font-weight: 700;
+                    position: absolute;
+                    color: #ffffff;
+                    font-weight: 700;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                    width: 100%;
+                    font-size: 4rem;
 
             }
 
             .text-3 {
                 /* text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000; */
-                font-size: 8rem;
+
                 color: #64364a;
             }
 
-            .text-2 {
-                font-size: 8rem;
-            }
 
             .image-1 {
                 width: 100%;
@@ -326,7 +325,7 @@ body {
             opacity: 0;
 
             .card{
-                width: 500px;
+                width: 400px;
                 aspect-ratio: 1 / 1;
                 background-color: aqua;
                 border-radius: 16px;
@@ -877,6 +876,76 @@ body {
 
 }
 
+@media only screen and (max-width: 1024px){ 
+
+    body {
+
+    .wrapper{
+
+        .hero {
+
+            .left {
+
+                .cta-btns{
+
+                    a {
+                        font-size: 0.8rem;
+                        text-align: center;
+                    }
+                }
+
+
+
+            }
+
+        }
+
+            .char-fly-section{
+
+                max-width: 700px;
+
+                .background-full {
+                    width: 250px;
+                    height: 250px;
+                }
+
+                .text-1, .text-2, .text-3 {
+                    position: absolute;
+                    color: #ffffff;
+                    font-weight: 700;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                    width: 100%;
+                    font-size: 3rem;
+                }
+
+                .text-1, .text-3 {
+                    color: #000000;
+                }
+
+
+    
+            }
+
+            .features{
+
+                .card {
+                    width: 250px;
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+
+            }
+        
+    }
+}
+
+
+}
 
 @media only screen and (max-width: 900px){
     body {
