@@ -42,7 +42,7 @@ body .wrapper {
   /* background-color: rgb(236, 255, 255); */
   /* NAVBAR */
   /* HERO SECTION */
-  /* HERO SUB TEXT*/
+  /* ABOVE FEATURES TEXT*/
   /* FEATURES SECTION */
   /* Demo video section*/
   /* DOCUMENTATION PAGE */
@@ -157,16 +157,15 @@ body .wrapper .hero .right {
 body .wrapper .hero .right img {
   width: 100%;
 }
-body .wrapper .char-fly-section {
+body .wrapper .features-heading-section {
   position: relative;
   width: 100%;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  opacity: 0;
   max-width: 1366px;
   margin: 0 auto;
 }
-body .wrapper .char-fly-section .background-full {
+body .wrapper .features-heading-section .background-full {
   position: absolute;
   top: 4%;
   left: 20%;
@@ -176,19 +175,21 @@ body .wrapper .char-fly-section .background-full {
   border-radius: 50%;
   background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 }
-body .wrapper .char-fly-section .img-container {
+body .wrapper .features-heading-section .img-container {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: -2;
+  display: flex;
+  justify-content: center;
 }
-body .wrapper .char-fly-section .img-container img {
-  width: 100%;
+body .wrapper .features-heading-section .img-container img {
+  width: 90%;
   border-radius: 16px;
   border: 2px solid black;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
-body .wrapper .char-fly-section .text-1 {
+body .wrapper .features-heading-section .text-1 {
   position: absolute;
   top: 63%;
   right: 50%;
@@ -203,7 +204,7 @@ body .wrapper .char-fly-section .text-1 {
   padding: 1rem;
   z-index: -1;
 }
-body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3 {
+body .wrapper .features-heading-section .text-2, body .wrapper .features-heading-section .text-3 {
   position: absolute;
   color: #ffffff;
   font-weight: 700;
@@ -214,7 +215,7 @@ body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3
   width: 100%;
   font-size: 4rem;
 }
-body .wrapper .char-fly-section .text-3 {
+body .wrapper .features-heading-section .text-3 {
   color: #000000;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
@@ -224,17 +225,17 @@ body .wrapper .char-fly-section .text-3 {
   width: max-content;
   padding: 1rem;
 }
-body .wrapper .char-fly-section .image-1 {
+body .wrapper .features-heading-section .image-1 {
   width: 100%;
 }
-body .wrapper .char-fly-section .image-2 {
+body .wrapper .features-heading-section .image-2 {
   width: 100%;
   border-radius: 32px;
 }
-body .wrapper .char-fly-section p {
+body .wrapper .features-heading-section p {
   text-align: center;
 }
-body .wrapper .sub-hero {
+body .wrapper .features-heading {
   font-size: 1.4rem;
   line-height: 3rem;
   width: 100%;
@@ -242,15 +243,14 @@ body .wrapper .sub-hero {
   justify-content: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  opacity: 0;
 }
-body .wrapper .sub-hero p {
+body .wrapper .features-heading p {
   margin: auto 0;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-body .wrapper .sub-hero p span {
+body .wrapper .features-heading p span {
   font-weight: bold;
   font-size: 3rem;
 }
@@ -260,7 +260,6 @@ body .wrapper .features {
   justify-content: center;
   gap: 2rem;
   padding-bottom: 5rem;
-  opacity: 0;
   /*             .features-end-img{
                   max-width: 80%;
                   position: absolute;
@@ -351,10 +350,10 @@ body .wrapper .contact a {
   background-color: #000000;
   border-radius: 16px;
 }
-body .wrapper .full {
+body .wrapper .docs-wrapper {
   display: flex;
 }
-body .wrapper .full .sidebar {
+body .wrapper .docs-wrapper .sidebar {
   background: #f5f5f5;
   border-radius: 32px;
   height: 100vh;
@@ -366,39 +365,39 @@ body .wrapper .full .sidebar {
   flex-direction: column;
   padding: 1rem;
 }
-body .wrapper .full .sidebar a {
+body .wrapper .docs-wrapper .sidebar a {
   text-decoration: none;
   color: #0f0f0f;
 }
-body .wrapper .full .sidebar ul {
+body .wrapper .docs-wrapper .sidebar ul {
   list-style: none;
   margin: 0;
   padding: 0;
   line-height: 2rem;
 }
-body .wrapper .full .sidebar ul li {
+body .wrapper .docs-wrapper .sidebar ul li {
   padding-left: 20px;
   font-weight: 500;
   /* SUB sections*/
 }
-body .wrapper .full .sidebar ul li ul li {
+body .wrapper .docs-wrapper .sidebar ul li ul li {
   border-left: 2px solid rgb(212, 212, 212);
 }
-body .wrapper .full main {
+body .wrapper .docs-wrapper main {
   width: 100%;
   padding-left: 400px;
   margin-bottom: 5rem;
 }
-body .wrapper .full main p {
+body .wrapper .docs-wrapper main p {
   line-height: 1.5rem;
 }
-body .wrapper .full main p span {
+body .wrapper .docs-wrapper main p span {
   font-weight: 700;
 }
-body .wrapper .full main #link1, body .wrapper .full main #link2, body .wrapper .full main #link3, body .wrapper .full main #link4, body .wrapper .full main #link5, body .wrapper .full main #link6, body .wrapper .full main #link7, body .wrapper .full main #link8, body .wrapper .full main #link9, body .wrapper .full main #link10, body .wrapper .full main #link11, body .wrapper .full main #link12, body .wrapper .full main #link13, body .wrapper .full main #link14, body .wrapper .full main #link15 {
+body .wrapper .docs-wrapper main #link1, body .wrapper .docs-wrapper main #link2, body .wrapper .docs-wrapper main #link3, body .wrapper .docs-wrapper main #link4, body .wrapper .docs-wrapper main #link5, body .wrapper .docs-wrapper main #link6, body .wrapper .docs-wrapper main #link7, body .wrapper .docs-wrapper main #link8, body .wrapper .docs-wrapper main #link9, body .wrapper .docs-wrapper main #link10, body .wrapper .docs-wrapper main #link11, body .wrapper .docs-wrapper main #link12, body .wrapper .docs-wrapper main #link13, body .wrapper .docs-wrapper main #link14, body .wrapper .docs-wrapper main #link15 {
   scroll-margin-top: 100px;
 }
-body .wrapper .full main img {
+body .wrapper .docs-wrapper main img {
   max-width: 100%;
 }
 body .wrapper .pricing {
@@ -677,14 +676,14 @@ body .wrapper .policy-wrapper {
     font-size: 0.8rem;
     text-align: center;
   }
-  body .wrapper .char-fly-section {
+  body .wrapper .features-heading-section {
     max-width: 700px;
   }
-  body .wrapper .char-fly-section .background-full {
+  body .wrapper .features-heading-section .background-full {
     width: 250px;
     height: 250px;
   }
-  body .wrapper .char-fly-section .text-1, body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3 {
+  body .wrapper .features-heading-section .text-1, body .wrapper .features-heading-section .text-2, body .wrapper .features-heading-section .text-3 {
     position: absolute;
     color: #ffffff;
     font-weight: 700;
@@ -695,7 +694,7 @@ body .wrapper .policy-wrapper {
     width: 100%;
     font-size: 3rem;
   }
-  body .wrapper .char-fly-section .text-1, body .wrapper .char-fly-section .text-3 {
+  body .wrapper .features-heading-section .text-1, body .wrapper .features-heading-section .text-3 {
     color: #000000;
   }
   body .wrapper .features .card {
@@ -776,13 +775,13 @@ body .wrapper .policy-wrapper {
   body .wrapper .hero .right {
     display: none;
   }
-  body .wrapper .char-fly-section .img-container {
+  body .wrapper .features-heading-section .img-container {
     display: none;
   }
-  body .wrapper .char-fly-section .text-1 {
+  body .wrapper .features-heading-section .text-1 {
     font-size: 1.5rem;
   }
-  body .wrapper .char-fly-section .text-2, body .wrapper .char-fly-section .text-3 {
+  body .wrapper .features-heading-section .text-2, body .wrapper .features-heading-section .text-3 {
     font-size: 1.5rem;
     padding: 0;
     position: relative;
@@ -792,13 +791,13 @@ body .wrapper .policy-wrapper {
     margin-top: 2rem;
     margin-bottom: 0;
   }
-  body .wrapper .char-fly-section .image-2 {
+  body .wrapper .features-heading-section .image-2 {
     border-radius: 0;
   }
-  body .wrapper .char-fly-section .background-full {
+  body .wrapper .features-heading-section .background-full {
     display: none;
   }
-  body .wrapper .sub-hero {
+  body .wrapper .features-heading {
     width: 90%;
     margin: 0 auto;
   }
@@ -828,16 +827,16 @@ body .wrapper .policy-wrapper {
     height: fit-content;
     gap: 2rem;
   }
-  body .wrapper .full {
+  body .wrapper .docs-wrapper {
     flex-direction: column;
     padding-top: 5rem;
   }
-  body .wrapper .full .sidebar {
+  body .wrapper .docs-wrapper .sidebar {
     position: relative;
     height: auto;
     padding-top: 5rem;
   }
-  body .wrapper .full main {
+  body .wrapper .docs-wrapper main {
     padding: 1rem;
   }
   body .wrapper .policy-wrapper {

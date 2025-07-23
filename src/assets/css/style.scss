@@ -198,12 +198,11 @@ body {
 
         }
 
-        .char-fly-section{
+        .features-heading-section{
             position: relative;
             width: 100%;
             padding-top: 5rem;
             padding-bottom: 5rem;
-            opacity: 0;
             max-width: 1366px;
             margin: 0 auto;
 
@@ -223,9 +222,11 @@ body {
                 top: 0;
                 width: 100%;
                 z-index: -2;
+                display: flex;
+                justify-content: center;
 
                 img {
-                    width: 100%;
+                    width: 90%;
                     border-radius: 16px;
                     border: 2px solid black;
                     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -291,8 +292,8 @@ body {
         }
 
 
-        /* HERO SUB TEXT*/
-        .sub-hero{
+        /* ABOVE FEATURES TEXT*/
+        .features-heading{
 
             font-size: 1.4rem;
             line-height: 3rem;
@@ -301,7 +302,6 @@ body {
             justify-content: center;
             padding-top: 5rem;
             padding-bottom: 5rem;
-            opacity: 0;
 
             p{
                 margin: auto 0;
@@ -327,7 +327,6 @@ body {
             justify-content: center;
             gap: 2rem;
             padding-bottom: 5rem;
-            opacity: 0;
 
             .card{
                 width: 450px;
@@ -441,7 +440,7 @@ body {
 
         /* DOCUMENTATION PAGE */
 
-        .full {
+        .docs-wrapper {
 
             display: flex;
 
@@ -906,7 +905,7 @@ body {
 
         }
 
-            .char-fly-section{
+            .features-heading-section{
 
                 max-width: 700px;
 
@@ -1054,7 +1053,7 @@ body {
 
             }
 
-            .char-fly-section{
+            .features-heading-section{
 
                 .img-container {
                     display:  none;
@@ -1088,7 +1087,7 @@ body {
             }
 
 
-            .sub-hero {
+            .features-heading {
                 width: 90%;
                 margin: 0 auto;
             }
@@ -1133,7 +1132,7 @@ body {
             }
 
 
-            .full {
+            .docs-wrapper {
 
                 flex-direction: column;
                 padding-top: 5rem;

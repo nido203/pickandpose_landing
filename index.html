@@ -61,7 +61,7 @@
             </div>
         </header>
 
-        <div class="hero animate">
+        <div class="hero">
 
 
             <div class="left">
@@ -96,7 +96,7 @@
 
         </div>
 
-        <div class="char-fly-section fade-in-up-on-scroll">
+        <div class="features-heading-section">
             
             <img class="image-1" src="./src/assets/images/char.png" alt="image of two characters in a drawing style" />
             <h1 class="text-1">Start with a pose</h1>
@@ -106,14 +106,14 @@
         </div>
 
 
-        <div class="sub-hero fade-in-up-on-scroll">
+        <div class="features-heading">
             <p>
                 <span>Features</span>
                 Build, adjust, and perfect your character references with ease.
             </p>
         </div>
 
-        <div class="features fade-in-up-on-scroll" id="features">
+        <div class="features" id="features">
 
             <div class="card1 card">
                 <img src="./src/assets/images/card_1.gif" alt="image of multiple characters posing" />
@@ -178,21 +178,21 @@
 
         </div>
 
-        <div class="char-fly-section fade-in-up-on-scroll">
+        <div class="features-heading-section">
             
             <img class="image-2" src="./src/assets/images/textured.webp" alt="image of two characters in a drawing style" />
             <h1 class="text-3">Textured models included</h1>
 
         </div>
 
-        <div class="char-fly-section fade-in-up-on-scroll">
+        <div class="features-heading-section">
             
             <img class="image-2" src="./src/assets/images/anatomy.webp" alt="image of two characters in a drawing style" />
             <h1 class="text-2">Muscle anatomy model</h1>
 
         </div>
 
-        <div class="char-fly-section fade-in-up-on-scroll">
+        <div class="features-heading-section">
 
             <img class="image-2" src="./src/assets/images/room_lines.webp" alt="image of two characters in a drawing style" />
             <h1 class="text-2">Show Reference Room</h1>
@@ -255,19 +255,6 @@
                 }
             } 
         })
-
-        const elementsToFadeInUpOnScroll = document.querySelectorAll(".fade-in-up-on-scroll");
-        if (elementsToFadeInUpOnScroll) {
-            window.addEventListener("scroll", function(event) {
-                elementsToFadeInUpOnScroll.forEach(function(element) {
-                if (window.scrollY >= (element.offsetTop - window.innerHeight)) {
-                    element.classList.add("fade-in-up");
-                } else {
-                    element.classList.remove("fade-in-up");
-                }
-                });
-            });
-        }
 
         if ('scrollRestoration' in history) {
             history.scrollRestoration = 'manual';
