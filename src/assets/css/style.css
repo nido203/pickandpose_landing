@@ -548,6 +548,10 @@ body .wrapper .pricing .pricing-cards .paid, body .wrapper .pricing .pricing-car
   max-width: 348px;
   gap: 2rem;
 }
+body .wrapper .pricing .pricing-cards .paid .discount, body .wrapper .pricing .pricing-cards .paid-no-after .discount {
+  color: #ff6000;
+  font-weight: 900;
+}
 body .wrapper .pricing .pricing-cards .paid p, body .wrapper .pricing .pricing-cards .paid-no-after p {
   margin: 0;
 }
